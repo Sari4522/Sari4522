@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
+  <title>My Portfolio</title>
   <style>
     @import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
     * {
@@ -718,7 +718,7 @@
       <div class="nav-bar">
         <div class="brand">
           <a href="#hero">
-            <h1><span>M</span>annava <span>P</span>ujitha</h1>
+            <h1><span>T</span>allapureddy <span>S</span>aritha</h1>
           </a>
         </div>
         <div class="nav-list">
@@ -745,7 +745,7 @@
       <div>
         <h1>Hello, <span></span></h1>
         <h1>My Name is <span></span></h1>
-        <h1>Pujitha <span></span></h1>
+        <h1>Saritha <span></span></h1>
         <a href="#projects" type="button" class="cta">Portfolio</a>
       </div>
     </div>
@@ -757,7 +757,8 @@
     <div class="services container">
       <div class="service-top">
         <h1 class="section-title">Sk<span>i</span>lls</h1>
-        <p>I am pretty decent at communication skills.<br>I am good at PYTHON,JAVA,HTML,CSS and I am interested in learning other coding languages.<br>
+        <p>I am pretty decent at communication skills.<br>I am good at PYTHON, JAVA, HTML, CSS, SQL, RDBMS and I am interested in Full Stack development.<br>
+          I am having a good knowledge on Data Structures and Algorithms, Artifical Intelligence, Machine Learning and Deep Learning.<br>
           I am able to do front end developping for any kind of website. </p>
       </div>
       <div class="service-bottom">
@@ -767,18 +768,7 @@
           <p>Completed web design course from well reputed institute. Done many projects on web designing.
             Worked for few websites and good at web designing.</p>
         </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Completed web design course from well reputed institute. Done many projects on web designing.
-            Worked for few websites and good at web designing.</p>
-        </div>
-        <div class="service-item">
-          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/services.png" /></div>
-          <h2>Web Design</h2>
-          <p>Completed web design course from well reputed institute. Done many projects on web designing.
-            Worked for few websites and good at web designing.</p>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -794,10 +784,10 @@
         <div class="project-item">
           <div class="project-info">
             <h1>Project 1</h1>
-            <h2>I Love Coding</h2>
-            <p>Designed a website for the people who feel coding is boring and difficult.
-              Introduced many easy methods and easy understandable website to learn coding.
-              Various methods and tips of coding.
+            <h2>Object Detection on Images Using YOLO</h2>
+            <p>Object detection using YOLO is a powerful technique that allows for accurate and efficient detection of objects within images.  YOLO processes each image, along with its pre-trained weights, is 
+               prepared for object detection tasks, detects objects, and predicts their bounding boxes and class labels. The results can be visualized by drawing bounding boxes around detected objects and 
+               labeling them with their class names.
             </p>
           </div>
           <div class="project-img">
@@ -807,16 +797,39 @@
         <div class="project-item">
           <div class="project-info">
             <h1>Project 2</h1>
-            <h2>I Love Coding</h2>
-            <p>Designed a website for the people who feel coding is boring and difficult.
-              Introduced many easy methods and easy understandable website to learn coding.
-              Various methods and tips of coding.</p>
+            <h2>Sentimental Analysis on Twitter data</h2>
+            <p>Sentiment analysis, also known as opinion mining, is the process of determining the sentiment or emotional tone expressed in text data, such as tweets on Twitter. It helps in understanding public 
+              opinion, customer feedback, and reviews.<br>
+             The primary goal of this project is to perform sentiment analysis on Twitter data, specifically using an algorithm called Long Short-Term Memory (LSTM). This analysis helps in categorizing text 
+             data as positive or negative.  It has widespread applications in marketing, customer service, political analysis, and more, helping organizations make data-driven decisions based on public 
+             sentiment.
+           </p>
           </div>
           <div class="project-img">
             <img src="https://frameboxx.in/upload/page/expert-program-web-development_511103x.jpg" alt="img">
           </div>
         </div>
+        <div class="project-item">
+          <div class="project-info">
+            <h1>Project 3</h1>
+            <h2>Music Genre Classification</h2>
+            <p>This project is to develop an efficient music genre classification system using deep learning techniques. Specifically, the project focuses on the GTZAN dataset, which is a well-known dataset for 
+              music genre classification. Three prominent neural network architectures—Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM), and Gated Recurrent Unit (GRU)—are introduced and 
+              implemented for this task.  It allows for efficient and automated genre tagging, making it easier for users to discover and organize music based on their preferences.
+            </p>
+          </div>
       </div>
+      <div class="project-item">
+          <div class="project-info">
+            <h1>Project 4(Research Paper)</h1>
+            <h2>Pneumothorax Lung Segmentation and Disease Classification Using Deep Neural Networks</h2>
+            <p>This research project focuses on the vital role of medical imaging, particularly chest X-rays and CT scans.  Overcoming challenges such as patient anatomical variations and limited training data, 
+               the project introduces an innovative approach that combines deep learning techniques. It employs a U-Net-inspired segmentation model with residual connections for precise lung region extraction 
+               and a Convolutional Neural Network (CNN) for disease detection with lung region segmentation achieving 98.01% accuracy and disease detection reaching 76.05%.
+            </p>
+          </div>
+      </div>
+        
     </div>
   </section>
   <!-- End Projects Section -->
@@ -832,10 +845,10 @@
       <div class="col-right">
         <h1 class="section-title">About <span>me</span></h1>
         <h2>Student/Beginner</h2>
-        <p>Hello,<br>My self MANNAVA PUJITHA. I am currently pursuing "Btech" in Computer science stream in <br>VIT-AP University.
+        <p>Hello,<br>My self Saritha. I am currently pursuing "Btech" in Computer science stream in <br>VIT-AP University.
         I am good at front end developing.<br>My hobbies are Coding,Reading books,cooking,playing shuttle and chess.<br>
         I am Self-Motivated,Hard working Person and Passionate about my area of work.</p>
-        <a href="#" class="cta">Download Resume</a>
+        <a href="https://drive.google.com/file/d/1r9XeyQ1idmV_dkeX9CZYdn_NtpEIh5ob/view?usp=drive_link" class="cta">Download Resume</a>
       </div>
     </div>
   </section>
@@ -852,21 +865,21 @@
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
           <div class="contact-info">
             <h1>Phone</h1>
-            <h2>+91 9704333235</h2>
+            <h2>+91 9390373752</h2>
           </div>
         </div>
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
           <div class="contact-info">
             <h1>Email</h1>
-            <h2>mannavapujitha@gmail.com</h2>
+            <h2>sarithasandeep124@gmail.com</h2>
           </div>
         </div>
         <div class="contact-item">
           <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
           <div class="contact-info">
             <h1>Address</h1>
-            <h2>Housing Board,Guntur,Andhrapradesh-522005</h2>
+            <h2>Chavidi Street, Near post office, peddapasupula, Kadapa district.</h2>
           </div>
         </div>
       </div>
@@ -878,7 +891,7 @@
   <section id="footer">
     <div class="footer container">
       <div class="brand">
-        <h1><span>M</span>annava<span>P</span>ujitha</h1>
+        <h1><span>T</span>allapureddy<span>S</span>aritha</h1>
       </div>
       <h2>Your Complete Web Solution</h2>
       <div class="social-icon">
@@ -886,13 +899,14 @@
           <a href="https://www.facebook.com/Pujitha.Mannava.98" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/facebook-new.png" /></a>
         </div>
         <div class="social-item">
-          <a href="https://www.instagram.com/pujitham_10.02/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+          <a href="https://www.linkedin.com/in/saritha-tallapureddy-adivemmagari/" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/Linkedin-new.png" /></a>
         </div>
         <div class="social-item">
-          <a href="https://twitter.com/@PujithaMannava" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
+          <a href="https://twitter.com/Saritha4522" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/twitter.png" /></a>
         </div>
       </div>
-      <p>Copyright © 2020 Pujitha. All rights reserved</p>
+      <p>Copyright © 2020 saritha. All rights reserved</p>
+      
     </div>
   </section>
   <!-- End Footer -->
