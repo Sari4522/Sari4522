@@ -790,9 +790,6 @@
                labeling them with their class names.
             </p>
           </div>
-          <div class="project-img">
-            <img src="https://frameboxx.in/upload/page/expert-program-web-development_511103x.jpg" alt="laptop">
-          </div>
         </div>
         <div class="project-item">
           <div class="project-info">
@@ -805,9 +802,7 @@
              sentiment.
            </p>
           </div>
-          <div class="project-img">
-            <img src="https://frameboxx.in/upload/page/expert-program-web-development_511103x.jpg" alt="img">
-          </div>
+          
         </div>
         <div class="project-item">
           <div class="project-info">
